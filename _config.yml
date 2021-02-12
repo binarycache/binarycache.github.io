@@ -148,12 +148,12 @@ content:
   
   - title: Skills 
     layout: list
-    content: | # this will include new lines to allow paragraphs
+    content: # this will include new lines to allow paragraphs
       - layout: top-middle
         description: | # this will include new lines to allow paragraphs
-          - Programming: Python, C++ \ 
-          - Frameworks: Tensorflow, mne, gym \
-          - Tools: jupyter, git, docker \
+          - Programming: Python, C++ 
+          - Frameworks: Tensorflow, mne, gym 
+          - Tools: jupyter, git, docker 
  
   - title: Volunteer Experience # Title for the section
     layout: list # Type of content section (list/text)
