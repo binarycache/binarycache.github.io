@@ -43,7 +43,7 @@ content:
         caption: 2018 - 2022
         qualification: PhD Computer Science
         description: | # this will include new lines to allow paragraphs
-           Working on identifying and comaring different underlying mechanisms of depression using different modalities like bhavioural and neurophysiological.
+           Working on identifying and comaring different underlying mechanisms of depression using different modalities like behavioural and neurophysiological.
       
       - layout: left
         title: M. Tech.
@@ -66,7 +66,19 @@ content:
         sub_title: SJBSVM, Mathura, India 
         caption: 2009 | 2007
         description: | # this will include new lines to allow paragraphs
-           Marks: 89.4% in XII and 91.0% in X.  
+           Marks: 89.4% in XII and 91.0% in X. 
+           
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Eeg-based age and gender prediction using deep blstm-lstm network model
+        link: https://scholar.google.com/citations?user=94uEUW0AAAAJ&hl=en&authuser=1
+        link_text: Google Scholar
+        quote: >
+          A Gupta, P Kaushik, PP. Roy and DP. Dogra in IEEE Sensor Letters
+        description: | # this will include new lines to allow paragraphs
+          We classified age and gender of a person based on the baseline EEG Recordings. An industry standard EEG recording device has been used to record cerebral activities of 60 subjects (both male and female) in relaxed position with closed eyes. Deep BLSTM-LSTM network has been used to construct a hybrid learning framework for the classification. We achieved and accuracy of 93.7% and 97.5% for age and gender classification respectively. Our analysis also reveals that the beta band frequencies are better in predicting the age and gender as compared to other frequency bands of the EEG signals.
       
            
   - title: Projects # Title for the section
