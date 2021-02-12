@@ -93,7 +93,38 @@ content:
           Comparing the underlying mechanisms of reward learning and spontaneous thoughts in detecting depression. A cross-national study in India and the USA.
         description: | # this will include new lines to allow paragraphs
             We collected data of 61 participants from India and USA while they were doing the reward learning and spontaneous thinking tasks. We observed that dreward learning is a better phenotype for dignosing depression and there are significant demographic factors that affect the prognosis of depression and closely related constructs like Rumination and Perseverative Thinking.
- 
+      
+      - layout: left
+        title: Bio-Medical Engineering Lab, INMAS, DRDO
+        link: https://www.drdo.gov.in/labs-and-establishments/institute-nuclear-medicine-allied-sciences-inmas
+        link_text: INMAS, DRDO, India.
+        sub_title: Research Intern
+        caption: Jul-Nov 2019
+        quote: >
+          Depression Detection with EEG data and studying the effects of meditation on Depression.
+        description: | # this will include new lines to allow paragraphs
+            We collected EEG data of 27 Depressed patients before and after meditation (RajaYoga) from KGMC hospital, Karnal. The objective was to observe the before and after differences of meditation on depression and classifying it. We got promising results in differences between the connectivity matrices (PLV) before and after the meditation. The results indicate that decreased activity in the frontal areas of brain. Together with the decreaed questionnaire scores (Hamilton Depression Rating Scale (HDRS)) and the decreased frontal activity, it can be concluded that the mediation actually helped the depressed patients. We are still working on building the classifier.     
+      
+      - layout: left
+        title: ACS Lab, IIT Mandi
+        link: http://www.acslab.org/
+        link_text: ACS Lab
+        sub_title: Research Intern
+        caption: Feb-April 2019
+        quote: >
+          Compared reinforcement learning algorithms; Q-learning and Instance Based Learning. 
+        description: | # this will include new lines to allow paragraphs
+            We proposed cognitive models like PyIBL as an alternative approach to reinforcement learning. Did a comparison of PyIBL and Q-Learning on FrozenLake environment from OpenAI gym. The results suggest that PyIBL was able to outperform Q-learning in generalizing to a new environment and also took less training time in doing so. (Paper Submitted to IEEE Access)
+      
+      - layout: left
+        title: Osaka Prefecture University, Japan.
+        link: http://www.m.cs.osakafu-u.ac.jp/~masa/
+        link_text: Osaka Prefecture University
+        sub_title: Research Visit
+        caption: May 2018
+        description: | # this will include new lines to allow paragraphs
+           Visited Osaka Prefecture University, Japan under the financial support of JST Sakura Science Plan to have technical discussions in the areas of brain computer interface and deep learning.  
+            
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
