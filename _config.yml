@@ -39,12 +39,28 @@ content:
     content:
       - layout: left
         title: Joint PhD
-        subtitle: University of Groningen and IIT Roorkee
+        sub_title: University of Groningen and IIT Roorkee
         caption: 2018 - 2022
         qualification: PhD Computer Science
         description: | # this will include new lines to allow paragraphs
            PhD Candidate at University of Groningen, Netherlands and IIT Roorkee, India, under the supervision of Dr. Partha Pratim Roy, Dr. M.K. Van Vugt and Dr. Niels Taatgen. The topic of my PhD is "Tracking Depression and Elucidating its Mechanisms using Cognitive Neuroscience, EEG, and Machine Learning". It is part of a project approved in the Scheme for Promotion of Academic and Collaboration (SPARC) by MHRD, India.
-          
+      
+      - layout: left
+        title: M. Tech.
+        sub_title: National Institute of Technology, Hamirpur, India.
+        caption: 2014 - 2016
+        qualification: M.Tech. Computer Science
+        description: | # this will include new lines to allow paragraphs
+           CGPA: 9.18, Worked on Automated Layout Generation of a Building using Genetic Algorithms in on order to assist an architect.
+ 
+      - layout: left
+        title: B. Tech.
+        sub_title: National Institute of Technology, Uttarakhand, India.
+        caption: 2010 - 2014
+        qualification: B.Tech. Computer Science
+        description: | # this will include new lines to allow paragraphs
+           CGPA: 8.93
+           
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
