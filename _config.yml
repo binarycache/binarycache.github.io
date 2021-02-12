@@ -61,6 +61,14 @@ content:
         description: | # this will include new lines to allow paragraphs
            CGPA: 8.93
            
+      - layout: left
+        title: XII | X
+        sub_title: SJBSVM, Mathura, India 
+        caption: 2009 | 2007
+        description: | # this will include new lines to allow paragraphs
+           Marks: 89.4% | 91.0%    
+      
+           
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
