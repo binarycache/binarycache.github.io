@@ -149,11 +149,19 @@ content:
   - title: Skills 
     layout: list
     content: # this will include new lines to allow paragraphs
-      - layout: top-middle
+      - layout: left
+        title: Programming
         description: | # this will include new lines to allow paragraphs
-          - Programming: Python, C++ 
-          - Frameworks: Tensorflow, mne, gym 
-          - Tools: jupyter, git, docker 
+          Python, C++ 
+      - layout: left
+        title: Frameworks
+        description: | # this will include new lines to allow paragraphs
+          Tensorflow, mne, gym
+      - layout: left
+        title: Tools
+        description: | # this will include new lines to allow paragraphs
+          jupyter, git, docker
+  
  
   - title: Volunteer Experience # Title for the section
     layout: list # Type of content section (list/text)
