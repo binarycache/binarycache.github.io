@@ -43,7 +43,7 @@ content:
         caption: 2018 - 2022
         qualification: PhD Computer Science
         description: | # this will include new lines to allow paragraphs
-           PhD Candidate at University of Groningen, Netherlands and IIT Roorkee, India, under the supervision of Dr. Partha Pratim Roy, Dr. M.K. Van Vugt and Dr. Niels Taatgen. The topic of my PhD is "Tracking Depression and Elucidating its Mechanisms using Cognitive Neuroscience, EEG, and Machine Learning". It is part of a project approved in the Scheme for Promotion of Academic and Collaboration (SPARC) by MHRD, India.
+           Working on identifying and comaring different underlying mechanisms of depression using different modalities like bhavioural and neurophysiological.
       
       - layout: left
         title: M. Tech.
