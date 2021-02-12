@@ -14,16 +14,16 @@ email: agupta@cs.iitr.ac.in
 # Dark Mode (true/false/never)
 darkmode: true
 
-# Social links
+
 # Social links
 twitter_username: chirping_ai
 github_username:  binarycache
 linkedin_username: anmolscd
-#youtube_username: globalmtb
 additional_links:
 - title: Blog
   icon: fab fa-blogger
   url: https://binarycache.github.io/logical_musings/
+  
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
@@ -31,28 +31,7 @@ about_content: | # this will include new lines to allow paragraphs
  Hi, this is Anmol. I am a research scholar doing joint PhD at University of Groningen, Netherlands and IIT Roorkee, India. I work under the supervision of Dr. Partha Pratim Roy, Dr. M.K. Van Vugt and Dr. Niels Taatgen. The topic of my PhD is "Tracking Depression and Elucidating its Mechanisms using Cognitive Neuroscience, EEG, and Machine Learning". It is part of a project approved in the Scheme for Promotion of Academic and Collaboration (SPARC) by MHRD.
  My work includes <mark>Deep Learning</mark>,  <mark> Computational Cognitive Neuroscience </mark> and   <mark>Cognitive Modelling</mark>
 
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
