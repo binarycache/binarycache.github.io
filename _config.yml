@@ -6,28 +6,30 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Anmol Gupta 
+title: Research Scholar at University of Groningen and IIT Roorkee. 
+email: agupta@cs.iitr.ac.in
+#website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# Social links
+twitter_username: chirping_ai
+github_username:  binarycache
+linkedin_username: anmolscd
+#youtube_username: globalmtb
+additional_links:
+- title: Blog
+  icon: fab fa-blogger
+  url: https://binarycache.github.io/logical_musings/
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+ Hi, this is Anmol. I am a research scholar doing joint PhD at University of Groningen, Netherlands and IIT Roorkee, India. I work under the supervision of Dr. Partha Pratim Roy, Dr. M.K. Van Vugt and Dr. Niels Taatgen. The topic of my PhD is "Tracking Depression and Elucidating its Mechanisms using Cognitive Neuroscience, EEG, and Machine Learning". It is part of a project approved in the Scheme for Promotion of Academic and Collaboration (SPARC) by MHRD.
+ My work includes <mark>Deep Learning</mark>,  <mark> Computational Cognitive Neuroscience </mark> and   <mark>Cognitive Modelling</mark>
 
 # Additional icon links
 additional_links:
