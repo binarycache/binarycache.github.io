@@ -145,30 +145,33 @@ content:
           Capstone Project for Advance Machine Learning Specialization on Coursera.
         description: | # this will include new lines to allow paragraphs
           Used Bayesian optimization with Gaussian processes for SHiP detector design optimization to search for rare decay elements
-          
+  
   - title: Skills 
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Programming: Python, C++
-      - Frameworks: Tensorflow, mne, gym
-      - Tools: jupyter, git, docker
+      - layout: left
+        title: Skills
+        description: | # this will include new lines to allow paragraphs
+          Programming: Python, C++
+          Frameworks: Tensorflow, mne, gym
+          Tools: jupyter, git, docker
  
   - title: Volunteer Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Alpha Tester at deeplearning.ai
+        title: Alpha Tester
         link: https://drive.google.com/file/d/1-UP9sX-hfLTteOc_OhR_BlxsdQk7ARAN/view?usp=sharing
         link_text: Certificate, deeplearning.ai.
         description: | # this will include new lines to allow paragraphs
           Mentor and Alpha Tester for DeepLearning.ai at Coursera.
       
       - layout: left
-        title: Taught Rural Kids using Evidyalok Platform.
+        title: Voluntary Teaching
         link: https://drive.google.com/file/d/12Jy5f3B6wfFdwOHqTGhz0HTU_yFzL11a/view?usp=sharing
         link_text: Certificate, Evidyalok.
         description: | # this will include new lines to allow paragraphs
-          Taught English to village kids at Sarath, Jharkhand.
+          Taught English to village kids at Sarath, Jharkhand using Evidyalok NGO Platform.
           
 
   - title: References
