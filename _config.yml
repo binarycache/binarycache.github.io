@@ -103,7 +103,7 @@ content:
         quote: >
           Depression Detection with EEG data and studying the effects of meditation on Depression.
         description: | # this will include new lines to allow paragraphs
-            We collected EEG data of 27 Depressed patients before and after meditation (RajaYoga) from KGMC hospital, Karnal. The objective was to observe the before and after differences of meditation on depression and classifying it. We got promising results in differences between the connectivity matrices (PLV) before and after the meditation. The results indicate that decreased activity in the frontal areas of brain. Together with the decreaed questionnaire scores (Hamilton Depression Rating Scale (HDRS)) and the decreased frontal activity, it can be concluded that the mediation actually helped the depressed patients. We are still working on building the classifier.     
+            We collected EEG data of 27 Depressed patients before and after meditation (RajaYoga) from KGMC hospital, Karnal. The objective was to observe the before and after differences of meditation on depression and classifying it. We got promising results in differences between the connectivity matrices (DTF) before and after the meditation. The results indicate that decreased activity in the frontal areas of brain. Together with the decreaed questionnaire scores (Hamilton Depression Rating Scale (HDRS)) and the decreased frontal activity, it can be concluded that the mediation actually helped the depressed patients. We are still working on building the classifier.     
       
       - layout: left
         title: ACS Lab, IIT Mandi
@@ -129,20 +129,22 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: University of Groningen, Netherlands
-        link: https://www.rug.nl/staff/m.k.van.vugt/
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: Interpreting Deep Learning Models
+        link: https://drive.google.com/file/d/140arH1xb7chf8raEQcSKM6nG29NFIhvN/view?usp=sharing
+        link_text: Specialization Certificate, Coursera.
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Capstone Project for AI for Medicine Specialization on Coursera.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Used GradCam and Shaps for interpretation and feature importance of ResNet used for disease classification using stanford’s CheXpert X-ray dataset.
+      
+      - layout: left
+        title: Search for Dark Matter hints with ML at CERN.
+        link: https://drive.google.com/file/d/1FTyxwkH3MRGN39WjjpgRrErbNQUkqZbL/view?usp=sharing
+        link_text: Specialization Certificate, Coursera.
+        quote: >
+          Capstone Project for Advance Machine Learning Specialization on Coursera.
+        description: | # this will include new lines to allow paragraphs
+          Used Bayesian optimization with Gaussian processes for SHiP detector design optimization to search for rare decay elements
 
   - title: A Little More About Me
     layout: text
