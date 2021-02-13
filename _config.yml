@@ -43,7 +43,7 @@ content:
         caption: 2018 - 2022
         qualification: PhD Computer Science
         description: | # this will include new lines to allow paragraphs
-           Working on identifying and comaring different underlying mechanisms of depression using different modalities like behavioural and neurophysiological.
+           Working on identifying and comparing different underlying mechanisms of depression using different modalities like behavioural and neurophysiological.
       
       - layout: left
         title: M. Tech.
@@ -92,7 +92,7 @@ content:
         quote: >
           Comparing the underlying mechanisms of reward learning and spontaneous thoughts in detecting depression. A cross-national study in India and the USA.
         description: | # this will include new lines to allow paragraphs
-            We collected data of 61 participants from India and USA while they were doing the reward learning and spontaneous thinking tasks. We observed that dreward learning is a better phenotype for dignosing depression and there are significant demographic factors that affect the prognosis of depression and closely related constructs like Rumination and Perseverative Thinking.
+            We collected data of 61 participants from India and USA while they were doing the reward learning and spontaneous thinking tasks. We observed that reward learning is a better phenotype for dignosing depression and there are significant demographic factors that affect the prognosis of depression and closely related constructs like Rumination and Perseverative Thinking.
       
       - layout: left
         title: Bio-Medical Engineering Lab, INMAS, DRDO
