@@ -72,14 +72,29 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Eeg-based age and gender prediction using deep blstm-lstm network model
-        link: https://scholar.google.com/citations?user=94uEUW0AAAAJ&hl=en&authuser=1
-        link_text: Google Scholar
+        title: Evaluation of Instance-based Learning and Q-learning algorithms in dynamic environments
+        link: https://ieeexplore.ieee.org/abstract/document/9558862
+        link_text: Click here to Read
         quote: >
-          A Gupta, P Kaushik, PP. Roy and DP. Dogra in IEEE Sensor Letters
+          A. Gupta, P.P. Roy and V. Dutt in IEEE Access
+        description: | # this will include new lines to allow paragraphs
+          Reinforcement learning is an unsupervised learning algorithm, where learning is based upon feedback from the environment. Prior research has proposed cognitive (e.g., Instance-based Learning or IBL) and statistical (Q-learning) reinforcement learning algorithms. However, an evaluation of these algorithms in a single dynamic environment has not been explored. In this paper, a comparison between the statistical Q-learning algorithm and the cognitive IBL algorithm is presented. A well-known environment, “Frozen Lake,” is used to train, generalize, and scale Q-learning and IBL algorithms. For generalizing, the Q-learning and IBL agents were trained on one version of the Frozen Lake and tested on a permuted version of the same environment. For scaling, the two algorithms were tested on a larger version of the Frozen Lake environment. Results revealed that the IBL algorithm used less training time and generalized better to different environment variants. The IBL algorithm was also able to show scalability by retaining its superior performance in the larger environment. These results indicate that the IBL algorithm could be proposed as an alternative to the standard reinforcement learning algorithms based on dynamic programming such as Q-learning. The inclusion of human factors (such as memory) in the IBL algorithm makes it suitable for robust learning in complex and dynamic environments.
+      - layout: top-middle
+        title: Subject-Specific Cognitive Workload Classification Using EEG-Based Functional Connectivity and Deep Learning
+        link: https://www.mdpi.com/1424-8220/21/20/6710
+        link_text: Click here to Read
+        quote: >
+          A. Gupta, G. Siddhad, V. Pandey, P.P. Roy and B.G. Kim in MDPI Sensors
+        description: | # this will include new lines to allow paragraphs
+          Cognitive workload is a crucial factor in tasks involving dynamic decision-making and other real-time and high-risk situations. Neuroimaging techniques have long been used for estimating cognitive workload. Given the portability, cost-effectiveness and high time-resolution of EEG as compared to fMRI and other neuroimaging modalities, an efficient method of estimating an individual’s workload using EEG is of paramount importance. Multiple cognitive, psychiatric and behavioral phenotypes have already been known to be linked with “functional connectivity”, i.e., correlations between different brain regions. In this work, we explored the possibility of using different model-free functional connectivity metrics along with deep learning in order to efficiently classify the cognitive workload of the participants. To this end, 64-channel EEG data of 19 participants were collected while they were doing the traditional n-back task. These data (after pre-processing) were used to extract the functional connectivity features, namely Phase Transfer Entropy (PTE), Mutual Information (MI) and Phase Locking Value (PLV). These three were chosen to do a comprehensive comparison of directed and non-directed model-free functional connectivity metrics (allows faster computations). Using these features, three deep learning classifiers, namely CNN, LSTM and Conv-LSTM were used for classifying the cognitive workload as low (1-back), medium (2-back) or high (3-back). With the high inter-subject variability in EEG and cognitive workload and recent research highlighting that EEG-based functional connectivity metrics are subject-specific, subject-specific classifiers were used. Results show the state-of-the-art multi-class classification accuracy with the combination of MI with CNN at 80.87%, followed by the combination of PLV with CNN (at 75.88%) and MI with LSTM (at 71.87%). The highest subject specific performance was achieved by the combinations of PLV with Conv-LSTM, and PLV with CNN with an accuracy of 97.92%, followed by the combination of MI with CNN (at 95.83%) and MI with Conv-LSTM (at 93.75%). The results highlight the efficacy of the combination of EEG-based model-free functional connectivity metrics and deep learning in order to classify cognitive workload. The work can further be extended to explore the possibility of classifying cognitive workload in real-time, dynamic and complex real-world scenarios.
+      - layout: top-middle
+        title: Eeg-based age and gender prediction using deep blstm-lstm network model
+        link: https://ieeexplore.ieee.org/abstract/document/8567950
+        link_text: Click here to Read
+        quote: >
+          A. Gupta, P. Kaushik, PP. Roy and DP. Dogra in IEEE Sensor Letters
         description: | # this will include new lines to allow paragraphs
           We classified age and gender of a person based on the baseline EEG Recordings. An industry standard EEG recording device has been used to record cerebral activities of 60 subjects (both male and female) in relaxed position with closed eyes. Deep BLSTM-LSTM network has been used to construct a hybrid learning framework for the classification. We achieved and accuracy of 93.7% and 97.5% for age and gender classification respectively. Our analysis also reveals that the beta band frequencies are better in predicting the age and gender as compared to other frequency bands of the EEG signals.
-     
   - title: Internships and Visits # Title for the section
     layout: list # Type of content section (list/text)
     content:
