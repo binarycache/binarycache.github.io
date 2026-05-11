@@ -9,10 +9,8 @@
     document.querySelectorAll(
       [
         ".header-container",
-        ".about-container",
-        ".content-container .layout",
-        ".projects-container .layout",
-        ".experience-container .layout",
+        ".intro-container",
+        "main .container .layout",
       ].join(",")
     )
   );
