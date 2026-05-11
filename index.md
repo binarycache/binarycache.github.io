@@ -7,3 +7,5 @@
 #
 layout: default
 ---
+
+<script defer src="{{ '/assets/motion.js' | relative_url }}"></script>
