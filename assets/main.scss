@@ -41,6 +41,8 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 // --- Dark theme overrides (body.dark from theme) ---
@@ -51,6 +53,7 @@ body.dark {
   font-size: 1.05rem;
   line-height: 1.65;
   letter-spacing: 0.01em;
+  overflow-x: clip;
 }
 
 body.dark h1,
@@ -78,6 +81,34 @@ body.dark .header-left h2 {
   max-width: 36rem;
 }
 
+// Theme sets global `p, ul { font-size: 1.6rem }` — scale down for dark layout readability (esp. mobile).
+body.dark .intro-container p,
+body.dark .intro-container li {
+  font-size: 1rem;
+  line-height: 1.65;
+  text-align: left;
+}
+
+body.dark .text-container p,
+body.dark .text-container li {
+  font-size: 0.98rem;
+  line-height: 1.65;
+  text-align: left;
+}
+
+body.dark .layout .content p,
+body.dark .layout .content li {
+  font-size: 0.98rem;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  body.dark .intro-container p,
+  body.dark .intro-container li {
+    font-size: 1.05rem;
+  }
+}
+
 body.dark a {
   color: var(--accent);
 }
@@ -100,6 +131,11 @@ body.dark .wrapper {
   max-width: 920px;
   margin: 0 auto;
   padding: 0 1.25rem 4rem;
+}
+
+// Prevent long URLs / code-like strings from stretching the Bootstrap grid past the viewport.
+body.dark .row [class*="col-"] {
+  min-width: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -253,6 +289,7 @@ body.dark .layout {
   border-radius: var(--radius-md);
   align-items: flex-start;
   gap: 0.5rem;
+  min-width: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -491,5 +528,98 @@ body.dark button:not(.button--sacnite):hover {
   .motion-reveal.is-visible {
     opacity: 1 !important;
     transform: none !important;
+  }
+}
+
+// --- Responsive (mobile / narrow viewports) ---
+@media screen and (max-width: 767px) {
+  body.dark .header-container {
+    margin-top: 1.25rem;
+    padding: 1.25rem 1rem;
+  }
+
+  body.dark .header-left {
+    text-align: center;
+    margin-bottom: 0.35rem;
+  }
+
+  body.dark .header-left h1 {
+    font-size: clamp(1.65rem, 6.5vw, 2.4rem);
+  }
+
+  body.dark .header-left h2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body.dark .header-right {
+    text-align: center;
+    padding-top: 0.35rem;
+  }
+
+  body.dark .header-right p,
+  body.dark .header-right a {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  body.dark .wrapper {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+    padding-bottom: max(3rem, env(safe-area-inset-bottom));
+  }
+
+  body.dark .intro-container {
+    padding: 1.25rem 1rem;
+  }
+
+  body.dark .intro-container .profile-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body.dark ul.icons {
+    max-width: 100%;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-bottom: 0.85rem;
+  }
+
+  body.dark .button.button--sacnite {
+    width: 44px !important;
+    height: 44px !important;
+  }
+
+  body.dark .container[class$="-container"] > h3 {
+    font-size: clamp(0.78rem, 3.2vw, 0.88rem);
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  body.dark .text-container .row.clearfix {
+    padding: 1.1rem 1rem;
+  }
+
+  body.dark .layout {
+    padding: 1.15rem 1rem;
+  }
+
+  body.dark .layout .details h4 {
+    font-size: 1.05rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  body.dark ul.icons {
+    gap: 0.3rem;
+  }
+
+  body.dark .button.button--sacnite {
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  body.dark ul.icons .button.button--sacnite i {
+    font-size: 1.05rem !important;
   }
 }
