@@ -88,8 +88,9 @@ body.dark a:focus-visible {
 }
 
 body.dark mark {
-  color: var(--bg-base);
-  background: linear-gradient(120deg, var(--accent-2), var(--accent));
+  color: var(--text-primary);
+  background: rgba(var(--accent-rgb), 0.22);
+  border: 1px solid rgba(var(--accent-rgb), 0.35);
   padding: 0.08em 0.35em;
   border-radius: 4px;
   font-weight: 500;
@@ -159,8 +160,29 @@ body.dark .button.button--sacnite {
     box-shadow var(--motion-duration-fast) var(--motion-ease-standard);
 }
 
-body.dark .button.button--sacnite i {
-  font-size: 1.15rem !important;
+// Theme ships `.dark .icons i { color: #222 }` — invisible on our dark glass buttons.
+body.dark ul.icons .button.button--sacnite i {
+  font-size: 1.2rem !important;
+  color: var(--text-primary) !important;
+  background: none !important;
+}
+
+body.dark ul.icons .button.button--sacnite i.fab {
+  font-family: "Font Awesome 5 Brands" !important;
+  font-style: normal;
+  font-weight: 400 !important;
+}
+
+body.dark ul.icons .button.button--sacnite i.fas {
+  font-family: "Font Awesome 5 Free" !important;
+  font-style: normal;
+  font-weight: 900 !important;
+}
+
+body.dark ul.icons .button.button--sacnite i.far {
+  font-family: "Font Awesome 5 Free" !important;
+  font-style: normal;
+  font-weight: 400 !important;
 }
 
 body.dark .button--sacnite::before {
@@ -172,6 +194,11 @@ body.dark .button.button--sacnite:focus-visible {
   transform: translateY(-2px);
   border-color: var(--border-accent);
   box-shadow: 0 0 0 1px rgba(var(--accent-rgb), 0.2);
+  color: var(--accent-bright) !important;
+}
+
+body.dark ul.icons .button.button--sacnite:hover i,
+body.dark ul.icons .button.button--sacnite:focus-visible i {
   color: var(--accent-bright) !important;
 }
 
@@ -203,10 +230,10 @@ body.dark .profile-img {
 // --- Section titles ---
 body.dark .container[class$="-container"] > h3 {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 500;
+  font-size: clamp(0.8rem, 1.1vw, 0.88rem);
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   color: var(--accent-2);
   border-bottom: 1px solid var(--border-subtle);
   padding-bottom: 0.65rem;
